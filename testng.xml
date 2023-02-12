@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/johneckholm/IdeaProjects/Forests/src/test/java/com/mycompany/test/testeng/TestYahoo.java">
+        <classes>
+            <class name="com.mycompany.test.testeng.TestYahoo">
+                <methods>
+                    <include name="testYahoo"/>
+                </methods>
+            </class>
+
+            <class name="com.mycompany.test.testeng.TestEngine">
+
+
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

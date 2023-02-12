@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T20:01:36 PST" name="All Test Suite" finished-at="2023-02-10T20:01:36 PST" duration-ms="66">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T20:01:36 PST" name="/Users/johneckholm/IdeaProjects/Forests/src/test/java/com/mycompany/test/testeng/TestYahoo.java" finished-at="2023-02-10T20:01:36 PST" duration-ms="66">
+      <class name="com.mycompany.test.testeng.TestYahoo">
+        <test-method signature="testYahoo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mycompany.test.testeng.TestYahoo@7ea37dbf]" started-at="2023-02-10T20:01:36 PST" name="testYahoo" data-provider="provideData" finished-at="2023-02-10T20:01:36 PST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usr1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahoo -->
+        <test-method signature="testYahoo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mycompany.test.testeng.TestYahoo@7ea37dbf]" started-at="2023-02-10T20:01:36 PST" name="testYahoo" data-provider="provideData" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usr2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYahoo -->
+      </class> <!-- com.mycompany.test.testeng.TestYahoo -->
+      <class name="com.mycompany.test.testeng.TestEngine">
+        <test-method is-config="true" signature="testBeforeClass()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testBeforeClass" finished-at="2023-02-10T20:01:36 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="beforeMethod" finished-at="2023-02-10T20:01:36 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="secondtest()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="secondtest" finished-at="2023-02-10T20:01:36 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testAfterMethod" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="beforeMethod" finished-at="2023-02-10T20:01:36 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDatabase()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testDatabase" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatabase -->
+        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testAfterMethod" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="beforeMethod" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testfirst()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testfirst" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfirst -->
+        <test-method is-config="true" signature="testAfterMethod()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testAfterMethod" finished-at="2023-02-10T20:01:36 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method is-config="true" signature="testAfterClass()[pri:0, instance:com.mycompany.test.testeng.TestEngine@4445629]" started-at="2023-02-10T20:01:36 PST" name="testAfterClass" finished-at="2023-02-10T20:01:36 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterClass -->
+      </class> <!-- com.mycompany.test.testeng.TestEngine -->
+    </test> <!-- /Users/johneckholm/IdeaProjects/Forests/src/test/java/com/mycompany/test/testeng/TestYahoo.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
