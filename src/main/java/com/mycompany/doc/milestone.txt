@@ -1,0 +1,38 @@
+Selenium
+Que -> What are the different locators you used for your project?
+Que -> Between xpath and css which locators will you choose and why?
+Que -> How did you handle multiple windows in selenium?
+Que -> How do you scroll the window?
+Que -> What kind of framework did you create for selenium?
+Que -> What is the difference between implicit weight and explicit weight?
+Que -> How do you handle dynamic xpath or dynamic css selector? (Where the locators are always changing) // How do you handle an element that has a dynamic attribute?
+
+
+Java
+Que -> What is the difference between method overloading adn method overriding?
+Que -> Can you overload constructor?
+Que -> What is the difference between interface and abstract class?
+Que -> What is polymorphism?
+Que -> What is Encapsulation?
+Que -> Can Object access static member of the class?
+Que -> What is the difference between Set and list?
+Que -> What is the difference between ArrayList and LinkedList?
+Que -> What is the difference between HasMap and HashTable?
+Que -> What is the difference between HashMap and Set?
+Que -> What is the difference between Stack and Queue?
+
+-----------------------------------
+
+Que -> What are the different annotations that you used for test engine?
+Que -> What is the difference between asset equals and assert same?
+Que -> How do you create a suite in test enginee?
+
+CICD pipeline   -> Continuous integration
+
+Que -> How do you run your daily regression?
+Que -> If some test fails in Regression, how do you debug? How do you know if it as a bug (or an application issue) or your script failure?
+
+Version Control System
+
+Que -> Which Repo did you use?
+Que -> How dod you use//create merge request and/or pull request?

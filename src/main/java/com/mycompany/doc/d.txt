@@ -1,0 +1,120 @@
+
+
+
+
+        //different locators to locate an element\\//
+
+        //expart and css
+
+        //how to handle multi windows
+
+        //how do you scroll the window
+
+        //framework of  creating selenium
+
+        //difference explicit and implicit weight
+
+        //how to handle dynamic expart and CSS
+
+        //method overloading and overwritting
+
+        //interface and abstract class
+
+        //overload constructor?
+
+
+        //polymorphysm
+
+        //
+        // encapsulation
+
+        // can object access abstract member of class
+
+        //set and list difference
+
+        //arraylist and linkedlist
+
+        //hashMap and hashTable
+
+        //hashMap and Set
+
+        //Stack and Queue
+
+        //annotation of test engines, differences?
+
+        // AssetEqual and AssetSame
+
+        //how to create a suite
+
+        // how to run daily regression
+
+        //if test fails in regression, how to know, debug. Application issue
+
+        // version control; PULL A request or merge request
+
+
+
+
+never abs Xbart !!
+
+/html/body/
+
+//tagname[@att = 'value'][@att2 = 'val']
+
+
+//input[@type = 'text'][@id = 'ma']
+
+
+
+//input[starts-with(@id,"m")]
+
+//tagname[text() = 'val'
+
+//input[contains(@id,"email")]
+
+//input[@id="email"]
+
+//button[@name="login"]
+
+
+
+
+CSS is faster and is supported by all browser
+
+===CSS
+
+tagname[att='val'] tagname
+#id
+.classvalue
+
+
+input[id ^= 'ma']
+
+^- starts with
+
+$- ends with
+
+* - contains
+
+input[id='ma']
+
+
+input[id^='ma']
+
+form[id='mortgageForm'] [id='ma']
+
+
+button[name="login"]
+
+
+a[id="root_1]
+
+//form[@id='mortgageForm']//*[text()='Sow advanced options']
+
+[i]
+
+
+
+
+
+

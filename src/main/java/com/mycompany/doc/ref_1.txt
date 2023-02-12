@@ -1,0 +1,60 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumNavigateToMLCalc {
+    public static void main(String[] args) {
+        // Set the path of the chromedriver
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        // Create a new instance of the ChromeDriver
+        WebDriver driver = new ChromeDriver();
+        // Navigate to the website
+        driver.get("https://www.mlcalc.com/");
+        // Find the "Show advanced options" checkbox and click it
+        WebElement showAdvancedOptionsCheckbox = driver.findElement(By.id("showAdv"));
+        showAdvancedOptionsCheckbox.click();
+        // Find the start month dropdown and select Mar
+        WebElement startMonthDropdown = driver.findElement(By.id("startmonth"));
+        startMonthDropdown.click();
+        WebElement startMonthOption = driver.findElement(By.xpath("//option[text()='Mar']"));
+        startMonthOption.click();
+        // Close the driver
+        driver.quit();
+    }
+}
+
+
+window.scroll(0,document.body.scrollHeight)
+
+window.scroll(0,200)
+
+
+
+//driver.switchTo().frame().
+<html>
+<body>
+<iframe id="sth">
+<html>
+
+</html>
+
+</ifram>
+
+</body></html>
+
+
+1, go to google.com, type bangalore, get how many results in such search result and find the first result[e.g. wikipedia]
+
+2, https://www.espncricinfo.com/
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+
+1, code -> 1 class per page
+            -> homepage -------------------------- -> private By pp = by.id
+                                                        -> public filleddata(){findelement(id).sendkey}
+
+
+            ->
+
+2, test data
+
+
+3, test code
+
+i create a page obj model for my selenium project
+add lots of page and test
+
+
+A, one class per page
+
+    1. each pageclass has the webele locator as a field;
+    in this way helps maintain the scrip as sometimes locators can change and we need to change the locator at one place only
+
+    2. i also write the methds in this page class using this fields which will be called into the testclasses
+
+
+B, Testbase
+
+    1, create 1 testbase class, with all common methods such as initialization of setup, mousemove, explicitwait, etc.
+            write a method setting up annotation (beforeMethod, ...), meaning that method is called before every test.
+                i set the implicit wait, do the window maximize, pageloadtimeout, oriwinhandleing, login, also
+    2, afterMethod, i quit the driver after each test.
+
+    3, i write seperate classes for tests, while indi test has common features in single class , all thes
+
+    4, Finally, XML FILE, which runs all these class as a suite.
+
+
+C, Test Data and Config
+
+    1, I never hard code data in the code, i always keep them in seperate files like Excel(poi api) and json(jackson api),
+    because test data changes, i just need go to the test data file and change it!
+    The code remains unchanged.
+

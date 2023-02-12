@@ -1,0 +1,102 @@
+Feb 3
+
+get a jira trial version
+    create a project,
+    create a kanban board
+    create a story
+    create a bug and link to story
+    one created a bug, change its status to word in progress -> retest -> done
+    create a sprint cycle
+    add story and detect to a sprint cycle
+    see
+
+
+
+
+Today:
+
+page obj model framework
+Test annotation
+@Test
+@Before[Method/ Class / suite]
+@after: for all above
+
+Create a suite
+
+=====jENKINS
+
+run regression
+job on jenkins
+run at a periodic time
+find failing test scripts and know root cause
+
+=====Cucumber
+
+Gherkin Keywords, Feature file, scenario, scenario outline given, when, then
+@before, @after
+Create a suite
+html report of test cases
+
+
+
+=====
+http methods: GET, PUT, POST, PATCH, DELETE
+
+PUT vs POST VS PATCH
+status code: 20x, 4xx, 5xx,
+
+
+
+
+Framework: Apache http client library
+jackson lib
+org.json lib
+
+Postman for manual testing
+
+======
+
+Moble testing:
+Appium
+ios android
+find element
+framework
+
+naive vs web vs hybrid
+
+
+=====cypress
+
+page obj model
+locators
+debug and test
+rest call with cypress
+
+
+=====Maven
+
+
+mvn clean compile test
+mvn test -D test= packagename.Class#method
+what is pom.xml
+setting.xml
+dependecy
+artifact id and version
+plugin repo
+what is build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
